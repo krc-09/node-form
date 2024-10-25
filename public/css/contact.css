@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    
+    align-items: center;
+    justify-content: center;
+    margin:100px;
+}
+
+.form-control {
+    width: 460%; 
+    max-width: 800px; 
+    min-height: 250px; 
+    padding: 30px; 
+    border-radius: 6px;
+    margin: auto; 
+    border: 1px solid rgb(78, 2, 2);
+    box-sizing: border-box;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+form button {
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(83, 3, 3);
+    color: white;
+    cursor: pointer;
+}
